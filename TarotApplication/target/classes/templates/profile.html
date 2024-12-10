@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile App</title>
+    <link rel="stylesheet" href="interface.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, #0A0E3D, #2B0038, #000000);
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+    border: 1px solid #af6df6;
+    border-radius: 8px;
+    background: #2B0038;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: #FFD700;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #FFD700;
+    color: rgb(177, 109, 64);
+}
+.aura {
+    color:#af6df6;
+    font-weight: bolder;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+button:hover {
+    background: #DAA520;
+}
+a {
+    color: rgb(177, 109, 64);
+}
+</style>
+<body>
+    <div id="profile-menu" class="container">
+        <div>
+        <h1>Profile</h1>
+        <h2 th:text="${message}"/>
+        <h2>Your aura is: </h2>
+        <h2 th:text="${luck}"/>
+        </div>
+        <div>
+        <form th:href="@{/add}" method="post">
+            <button class="aura" name="foo" value="submit" type="submit">Improve your Aura</button>
+        </form>
+        </div>
+        <a th:href="@{/home}">
+            <button>Back</button>
+        </a>
+        
+    </div>
+</body>
+</html>

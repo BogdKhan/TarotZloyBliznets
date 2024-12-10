@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oriental Beauty</title>
+    <link rel="stylesheet" href="interface.css">
+</head>
+<body>
+    <div id="main-menu" class="container">
+        <h1>Main Menu</h1>
+        <button id="play-button">Play</button>
+        <a th:href="@{/profile}">
+            <button>Profile</button>
+        </a>
+    </div>
+</body>
+</html>
