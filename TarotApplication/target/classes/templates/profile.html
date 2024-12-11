@@ -58,13 +58,8 @@ a {
         <div>
         <h1>Profile</h1>
         <h2 th:text="${message}"/>
-        <h2>Your aura is: </h2>
-        <h2 th:text="${luck}"/>
-        </div>
-        <div>
-        <form th:href="@{/add}" method="post">
-            <button class="aura" name="foo" value="submit" type="submit">Improve your Aura</button>
-        </form>
+        <h2>Email: </h2>
+        <h2 th:text="${email}"/>
         </div>
         <a th:href="@{/home}">
             <button>Back</button>

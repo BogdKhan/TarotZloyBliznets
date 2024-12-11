@@ -36,8 +36,4 @@ public class User {
     protected void onCreate() {
         registrationDate = LocalDateTime.now();
     }
-    
-    public Long getId() {
-        return id;
-    }
 }

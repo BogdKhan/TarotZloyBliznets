@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+            <h1>Taro gadaniye</h1>
+        </header>
+    <main>
+        <div class="table">
+            <div class="cards">
+                <div class="card" onclick="textPrediction(); flipCard(this); ">
+                    <div class="card-inner">
+                        <div class="card-front"></div>
+                        <div class="card-back"></div>
+                    </div>
+                </div>
+                <div class="card" onclick="textPrediction();flipCard(this);">
+                    <div class="card-inner">
+                        <div class="card-front"></div>
+                        <div class="card-back"></div>
+                    </div>
+                </div>
+                <div class="card" onclick="textPrediction();flipCard(this);">
+                    <div class="card-inner">
+                        <div class="card-front"></div>
+                        <div class="card-back"></div>
+                    </div>
+                </div>
+                <div class="card" onclick="textPrediction();flipCard(this);">
+                    <div class="card-inner">
+                        <div class="card-front"></div>
+                        <div class="card-back"></div>
+                    </div>
+                </div>
+                <div class="card" onclick="textPrediction();flipCard(this);">
+                    <div class="card-inner">
+                        <div class="card-front"></div>
+                        <div class="card-back"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <button onclick="resetCards()">Reset</button>
+            </div>
+            <div class="prediction">
+                <h2>Your prediction:</h2>
+                <p id="prediction-text">turn the cards</p>
+            </div>
+        </div>
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>

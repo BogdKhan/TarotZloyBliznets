@@ -1,1 +1,8 @@
+com\example\tarotapplication\repository\UserRepository.class
+com\example\tarotapplication\service\CustomUserDetailsService.class
+com\example\tarotapplication\model\User.class
 com\example\tarotapplication\TarotApplication.class
+com\example\tarotapplication\controller\AuthController.class
+com\example\tarotapplication\controller\HomeController.class
+com\example\tarotapplication\config\SecurityConfig.class
+com\example\tarotapplication\service\UserService.class

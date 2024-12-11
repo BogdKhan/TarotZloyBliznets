@@ -1,12 +1,8 @@
 C:\Users\User\Documents\Bogdan\Hoework\year2\Jlab\JavaJava\JavaJ\TarotApplication\src\main\java\com\example\tarotapplication\config\SecurityConfig.java
 C:\Users\User\Documents\Bogdan\Hoework\year2\Jlab\JavaJava\JavaJ\TarotApplication\src\main\java\com\example\tarotapplication\controller\AuthController.java
 C:\Users\User\Documents\Bogdan\Hoework\year2\Jlab\JavaJava\JavaJ\TarotApplication\src\main\java\com\example\tarotapplication\controller\HomeController.java
-C:\Users\User\Documents\Bogdan\Hoework\year2\Jlab\JavaJava\JavaJ\TarotApplication\src\main\java\com\example\tarotapplication\controller\UserLuckController.java
 C:\Users\User\Documents\Bogdan\Hoework\year2\Jlab\JavaJava\JavaJ\TarotApplication\src\main\java\com\example\tarotapplication\model\User.java
-C:\Users\User\Documents\Bogdan\Hoework\year2\Jlab\JavaJava\JavaJ\TarotApplication\src\main\java\com\example\tarotapplication\model\UserLuck.java
-C:\Users\User\Documents\Bogdan\Hoework\year2\Jlab\JavaJava\JavaJ\TarotApplication\src\main\java\com\example\tarotapplication\repository\UserLuckRepository.java
 C:\Users\User\Documents\Bogdan\Hoework\year2\Jlab\JavaJava\JavaJ\TarotApplication\src\main\java\com\example\tarotapplication\repository\UserRepository.java
 C:\Users\User\Documents\Bogdan\Hoework\year2\Jlab\JavaJava\JavaJ\TarotApplication\src\main\java\com\example\tarotapplication\service\CustomUserDetailsService.java
-C:\Users\User\Documents\Bogdan\Hoework\year2\Jlab\JavaJava\JavaJ\TarotApplication\src\main\java\com\example\tarotapplication\service\UserLuckService.java
 C:\Users\User\Documents\Bogdan\Hoework\year2\Jlab\JavaJava\JavaJ\TarotApplication\src\main\java\com\example\tarotapplication\service\UserService.java
 C:\Users\User\Documents\Bogdan\Hoework\year2\Jlab\JavaJava\JavaJ\TarotApplication\src\main\java\com\example\tarotapplication\TarotApplication.java
